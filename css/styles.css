@@ -404,7 +404,7 @@ p {
 .filter-box {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   padding-left: 0;
 }
 
