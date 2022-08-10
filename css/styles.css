@@ -168,6 +168,7 @@ p {
 .auth-link {
   display: flex;
   align-items: center;
+  padding: 32px 0px;
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -376,10 +377,11 @@ p {
 }
 
 .logo-clients {
-  display: inline-block;
+  display: inline-flex;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
   color: var(--logo-color);
   border: 1px solid var(--logo-color);
   border-radius: 4px;
